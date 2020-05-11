@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-// import PropsD from './propsAndComponet/props';
-// import Events from './events/events';
+ //import PropsD from './props/props';
+ //import Events from './events/events';
 //import Condition from './condition/condintion';
 //import List from './lists/list'
 //import Form from './form/form'
 //import State from './stateUp/state'
 //import Exten from './extends/extends'
 import CommentApp from './comment/CommentApp'
+//import Context from './context/Index'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<CommentApp />, document.getElementById('app'));

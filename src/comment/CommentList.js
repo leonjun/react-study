@@ -4,6 +4,9 @@ class CommentList extends Component {
     static defaultProps={
         comments:[]
     }
+    componentDidMount(){
+        
+    }
     render(){
         let arrs=[
             {name:"leon",content:"jun"},
@@ -16,6 +19,7 @@ class CommentList extends Component {
                      return <Comment comment={arr} key={index}/>
                 })}
                 </div>
+                
             </div>
         )
     }
